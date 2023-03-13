@@ -2,6 +2,11 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 
+// npm i react-scripts
+// npm audit fix
+// npm audit fix --force
+// npm start
+
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -38,7 +43,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Hello
+            Hello Hello
           </p>
           <LambdaDemo />
         </header>
